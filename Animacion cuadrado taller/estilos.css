@@ -1,0 +1,36 @@
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    position: relative;
+    animation: mover 4s infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+@keyframes mover {
+    0%{
+        background: #aaa;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: blueviolet;
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        background-color: peru;
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        background-color: violet;
+        left: 0px;
+        top: 300px;
+    }
+    100%{
+        background-color: darkorchid;
+        left: 0px;
+        top: 0px;
+    }
+}
